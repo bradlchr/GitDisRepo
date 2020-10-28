@@ -10,8 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            List (0..<5) {
-                Text("This is list item \($0)")
+            List (0..<5) { item in
+                NavigationLink(destination: Text("Details for list item \(item)")) {
+                    Text("This is list item \(item)")
+                }
             }
             .navigationTitle("Chris' Branch")
         }
