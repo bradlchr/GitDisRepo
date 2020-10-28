@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BFA4F12549EFA000FEA741 /* AdrianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFA4F02549EFA000FEA741 /* AdrianView.swift */; };
+		00BFA4F22549EFA000FEA741 /* AdrianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFA4F02549EFA000FEA741 /* AdrianView.swift */; };
 		833294262549E26E005AFD45 /* GitDisRepoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833294132549E26D005AFD45 /* GitDisRepoApp.swift */; };
 		833294272549E26E005AFD45 /* GitDisRepoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833294132549E26D005AFD45 /* GitDisRepoApp.swift */; };
 		833294282549E26E005AFD45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833294142549E26D005AFD45 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00BFA4F02549EFA000FEA741 /* AdrianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdrianView.swift; sourceTree = "<group>"; };
 		833294132549E26D005AFD45 /* GitDisRepoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDisRepoApp.swift; sourceTree = "<group>"; };
 		833294142549E26D005AFD45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		833294152549E26E005AFD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 			children = (
 				833294132549E26D005AFD45 /* GitDisRepoApp.swift */,
 				833294142549E26D005AFD45 /* ContentView.swift */,
+				00BFA4F02549EFA000FEA741 /* AdrianView.swift */,
 				833294152549E26E005AFD45 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BFA4F12549EFA000FEA741 /* AdrianView.swift in Sources */,
 				833294282549E26E005AFD45 /* ContentView.swift in Sources */,
 				833294262549E26E005AFD45 /* GitDisRepoApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BFA4F22549EFA000FEA741 /* AdrianView.swift in Sources */,
 				833294292549E26E005AFD45 /* ContentView.swift in Sources */,
 				833294272549E26E005AFD45 /* GitDisRepoApp.swift in Sources */,
 			);
