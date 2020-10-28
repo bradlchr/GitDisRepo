@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List (0..<5) {
-            Text("This is list item \($0)")
+        NavigationView {
+            List (0..<5) {
+                Text("This is list item \($0)")
+            }
+            .listStyle(InsetGroupedListStyle())
+            .navigationTitle("List Edits")
         }
     }
 }
