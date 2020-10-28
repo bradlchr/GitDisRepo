@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("This is chris's branch!")
-            .padding()
+        List (0..<5) {
+            Text("This is list item \($0)")
+        }
     }
 }
 
