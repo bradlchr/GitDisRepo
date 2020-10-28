@@ -15,7 +15,8 @@ struct ContentView: View {
                     Text("This is list item \(item)")
                 }
             }
-            .navigationTitle("Chris' Branch")
+            .listStyle(InsetGroupedListStyle())
+            .navigationTitle("List Edits")
         }
     }
 }
